@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "python wol.py", 0, True
