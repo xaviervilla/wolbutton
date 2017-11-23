@@ -6,10 +6,9 @@ server = '<server ip/dns>' # use your raspberry pi's ip or dns. Ex. '172.217.5.1
 port = '<port>' # default '22'
 username = '<username>'
 password = '<password>'
-
+command_to_run = '<command_to_run>'
 # Your command_to_run should be your script on your raspberry pi that wakes your computer.
 # Ex: 'bash wol.sh'
-command_to_run = '<command_to_run>'
 
 # Do not edit the following.
 ssh = paramiko.SSHClient()
