@@ -1,6 +1,8 @@
 # wolbutton
 Wake remote computer with a single button click [Uses SSH and Raspberry Pi]
 
+![Alt text](Preview.png?raw=true)
+
 Difficulty: 
 - If you already have a Raspberry Pi WOL server set up: Easy
 - If you do not: Easy/Moderate
