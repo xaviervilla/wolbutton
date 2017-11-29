@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "python sol.py", 0, True
