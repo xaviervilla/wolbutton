@@ -7,7 +7,6 @@ port = '22' # default '22'
 username = 'username'
 password = 'password'
 command_to_run = "echo 'YOUR LINUX PASSWORD' | sudo -S pm-suspend" # In linux this suspends your PC.
-# Your command_to_run should be your script on your raspberry pi that wakes your computer. Ex: 'bash wol.sh'
 
 # Do not edit the following.
 ssh = paramiko.SSHClient()
