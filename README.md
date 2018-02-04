@@ -65,7 +65,9 @@ To check if Python is installed, open CMD, and type 'python --version'.
 - If it is installed, then move on. 
 - If Python is not recognized by CMD as a command, then install Python from here: https://www.python.org/downloads/release
 - Once installed, in a CMD window, type ' setx PATH "%PATH%;C:\PythonXX\Scripts" ' (where the XX is your python version) to enable PIP.
+- Then run ' setx PATH c:\PythonXX ' (where the XX is your python version)
 - Then you will need to close that CMD window before continuing.
+- Open a new CMD window and run 'python --version' to confirm installation.
 
 By now, you should have Python installed. Lets now make sure you have Paramiko installed.
 - In a CMD window, type 'pip install paramiko'
